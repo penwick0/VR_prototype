@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://6jhx37xq0h2r"]
+
+[ext_resource type="PackedScene" uid="uid://crukxq8rwn056" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://clc5dre31iskm" path="res://addons/godot-xr-tools/xr/start_xr.tscn" id="2_0xm2m"]
+
+[node name="main" type="Node3D"]
+
+[node name="XROrigin3D" parent="." instance=ExtResource("1_ig7tw")]
+
+[node name="StartXR" parent="." instance=ExtResource("2_0xm2m")]
