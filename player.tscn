@@ -8,11 +8,11 @@
 [node name="XRCamera3D" type="XRCamera3D" parent="."]
 
 [node name="LeftHand" type="XRController3D" parent="."]
+tracker = &"left_hand"
 
-[node name="LeftHand2" parent="LeftHand" instance=ExtResource("1_onrkg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.200022, 0, -0.322577)
+[node name="LeftHand" parent="LeftHand" instance=ExtResource("1_onrkg")]
 
 [node name="RightHand" type="XRController3D" parent="."]
+tracker = &"right_hand"
 
-[node name="RightHand2" parent="RightHand" instance=ExtResource("2_i3pqv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.59657, 0, -0.160764)
+[node name="RightHand" parent="RightHand" instance=ExtResource("2_i3pqv")]
